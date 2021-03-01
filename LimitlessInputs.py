@@ -1,4 +1,4 @@
-def KeyboardReader(type, default_text, stop_at):
+def KeyboardReader(default_text, stop_at):
     response = []
     while True:
         inp = input(default_text)
